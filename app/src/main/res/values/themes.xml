@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Univents" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Menggunakan Warna Tema President University -->
+        <item name="colorPrimary">@color/pres_blue_dark</item>
+        <item name="colorPrimaryVariant">@color/pres_blue_dark</item>
+        <item name="colorOnPrimary">@color/pres_white</item>
+
+        <item name="colorSecondary">@color/pres_red</item>
+        <item name="colorSecondaryVariant">@color/pres_red</item>
+        <item name="colorOnSecondary">@color/pres_white</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Atur background default aplikasi -->
+        <item name="android:colorBackground">@color/pres_grey</item>
+
+        <!-- Mengatur bentuk komponen (sudut membulat) -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.MediumComponent</item>
+    </style>
+
+    <!-- Style untuk Sudut Membulat -->
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="Theme.Univents" parent="Base.Theme.Univents" />
+
+    <!-- Style Khusus untuk Halaman Login/Register -->
+    <style name="Theme.Univents.Auth" parent="Base.Theme.Univents">
+        <!-- Mengubah background khusus untuk halaman ini -->
+        <item name="android:colorBackground">@color/pres_white</item>
+    </style>
+</resources>

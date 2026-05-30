@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Event Title -->
+        <EditText
+            android:id="@+id/editTitle"
+            android:hint="@string/hint_event_title"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:inputType="textCapSentences"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Event Description -->
+        <EditText
+            android:id="@+id/editDescription"
+            android:hint="@string/hint_event_description"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:padding="12dp"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Event Date -->
+        <EditText
+            android:id="@+id/editDate"
+            android:hint="@string/hint_select_date"
+            android:focusable="false"
+            android:inputType="none"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Event Time -->
+        <EditText
+            android:id="@+id/editTime"
+            android:hint="@string/hint_select_time"
+            android:focusable="false"
+            android:inputType="none"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Event Location -->
+        <EditText
+            android:id="@+id/editLocation"
+            android:hint="@string/hint_event_location"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:inputType="textCapWords"
+            android:layout_marginBottom="18dp"/>
+
+        <!-- Switch Committee -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:text="@string/label_event_committee"
+                android:textSize="16sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+            <Switch
+                android:id="@+id/switchNeedsCommittee"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+
+        <!-- Button Update -->
+        <Button
+            android:id="@+id/btnUpdateEvent"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/btn_update_event"
+            android:backgroundTint="#5B72F2"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+</ScrollView>

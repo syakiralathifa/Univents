@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    android:background="#F4F6FA">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtWelcome"
+            android:text="Welcome to Univents!"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2E3A59"
+            android:layout_marginBottom="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnEventList"
+            android:text="View Events"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:backgroundTint="#5B72F2"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnMyEvents"
+            android:text="My Registered Events"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:backgroundTint="#4AA3FF"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:text="My Profile"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:backgroundTint="#6C63FF"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnAdmin"
+            android:text="Admin Panel"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:backgroundTint="#FF7B7B"
+            android:textColor="#FFFFFF"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:text="Logout"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:backgroundTint="#B0B0B0"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+</ScrollView>

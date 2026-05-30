@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F4F6FA">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Event Title -->
+        <TextView
+            android:id="@+id/txtTitleDetail"
+            android:text="Event Title"
+            android:textSize="24sp"
+            android:textColor="#2E3A59"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Event Date -->
+        <TextView
+            android:id="@+id/txtDateDetail"
+            android:text="Event Date"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Event Description -->
+        <TextView
+            android:id="@+id/txtDescriptionDetail"
+            android:text="Event description goes here..."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Spinner Role -->
+        <TextView
+            android:text="Select Role:"
+            android:textSize="14sp"
+            android:textColor="#444"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinnerRole"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:minHeight="48dp"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Division Label -->
+        <TextView
+            android:id="@+id/txtDivisionLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select division (only for committee):"
+            android:textSize="14sp"
+            android:textColor="#444"
+            android:visibility="gone"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Spinner Division -->
+        <Spinner
+            android:id="@+id/spinnerDivision"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:minHeight="48dp"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:visibility="gone"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/btnRegisterEvent"
+            android:text="Register for Event"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="#5B72F2"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:letterSpacing="0.03" />
+
+    </LinearLayout>
+
+</ScrollView>

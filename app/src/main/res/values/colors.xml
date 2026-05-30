@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palet Warna Tema President University -->
+    <color name="pres_blue_dark">#0D2B5B</color> <!-- Biru Tua untuk background, toolbar -->
+    <color name="pres_red">#D4242B</color> <!-- Merah untuk Aksen, Tombol, Link -->
+    <color name="pres_white">#FFFFFF</color> <!-- Teks di atas background biru/merah -->
+    <color name="pres_grey">#F0F2F5</color> <!-- Background netral untuk halaman -->
+    <color name="pres_text_primary">#1C1E21</color> <!-- Teks utama di background terang -->
+    <color name="pres_text_secondary">#606770</color> <!-- Teks sekunder/hint -->
+
+    <!-- JANGAN HAPUS INI -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="chip_pending_background">#FFEB3B</color>
+</resources>

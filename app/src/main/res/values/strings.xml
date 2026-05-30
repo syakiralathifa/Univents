@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Univents</string>
+
+    <!-- Drawer Strings -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Event Form -->
+    <string name="hint_event_title">Event Title</string>
+    <string name="hint_event_description">Event Description</string>
+    <string name="hint_select_date">Select Date</string>
+    <string name="hint_select_time">Select Time</string>
+    <string name="hint_event_location">Event Location</string>
+    <string name="label_event_committee">This event needs committee?</string>
+    <string name="btn_update_event">Update Event</string>
+
+    <!-- Admin Event Item -->
+    <string name="label_event_title">Event Title</string>
+    <string name="label_event_date">Event Date</string>
+    <string name="label_participants">Participants:</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_view_participants">View Participants</string>
+</resources>
